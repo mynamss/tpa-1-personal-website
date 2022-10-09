@@ -1,0 +1,120 @@
+/* import font */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400;700&display=swap");
+
+* {
+  font-family: "IBM Plex Sans", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(226, 225, 225);
+}
+
+/* Navigasi */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav img {
+  width: 60px;
+  padding: 20px;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+nav ul li {
+  text-align: center;
+  float: left;
+}
+nav ul li a {
+  display: block;
+  color: rgb(108, 104, 104);
+  text-decoration: none;
+  padding: 20px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+nav ul li a:hover {
+  color: rgb(31, 171, 137);
+  border-bottom: 2px solid;
+}
+/* logo */
+.logo {
+  image-resolution: 24px;
+  opacity: 100%;
+}
+
+/* About */
+.profile {
+  min-height: calc(100vh - 128px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  max-width: 75ch;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px auto 30px auto;
+}
+
+#about {
+  font-size: 32px;
+}
+
+#about:hover {
+  font-size: 32px;
+  color: rgb(31, 171, 137);
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: disc;
+  margin-left: 20px;
+}
+/* sosmed footer */
+footer {
+  text-align: center;
+}
+#social-media {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  margin: 5px;
+}
+
+.sosmed {
+  image-resolution: 24px;
+  opacity: 50%;
+}
+
+.sosmed:hover {
+  opacity: 100%;
+}

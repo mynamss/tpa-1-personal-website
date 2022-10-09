@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="contact.css" />
     <title>Nunung Ali Maulana - personalWeb</title>
   </head>
   <body>
@@ -23,25 +23,24 @@
     </header>
     <!-- Bagian Utama -->
     <main>
-      <!-- About -->
+      <!-- Contact -->
       <article>
-        <section class="profile">
-          <img class="profile-image" src="img/profile.png" alt="fotoProfil" />
-          <h1 id="about">About me.</h1>
-          <p>
-            My name is Nunung Ali Maulana, 20 years old right now, and you can call me <b>'Nunung', 'Ali', or 'Maul'</b>, or you can also call me by another name, I'm enjoy with that. Now, I'm student in Semarang State University majoring
-            in Informatics Engineering.
-          </p>
-          <p>I am Back-end Web Developer. I first became interested in design and website development around 2021 and since then I've been learning and looking for more about the technology in it.</p>
-          <p>Technologies I've been learned:</p>
-          <ul>
-            <li id="html-orange">HTML</li>
-            <li id="css-blue">CSS</li>
-            <li id="js-yellow">JavaScript</li>
-            <li id="figma-black">Figma</li>
-            <li id="corel-green">Corel Draw</li>
-          </ul>
-        </section>
+        <section class="contact-group">
+          <h1 id="contact">Contact me.</h1>
+          <p>For better progress, give constructive criticism and suggestions from you.</p>
+          <form name="contact" netlify>
+              <p>
+                <label><b>Email</b></label><br>
+                <input id="inputan" class="input" type="email" name="email" />
+              </p>
+              <p>
+                <label><b>Message</b></label><br>
+                <textarea class="inputan" name="message" cols="90" rows="6" ></textarea>
+              </p>
+              <p>
+                <button type="submit" id="send">Send</button>
+              </p>
+            </form>
       </article>
     </main>
     <!-- Footer Sosmed -->

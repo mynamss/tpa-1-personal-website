@@ -1,0 +1,124 @@
+/* import font */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400;700&display=swap");
+
+* {
+  font-family: "IBM Plex Sans", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(226, 225, 225);
+}
+
+/* Navigasi */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav img {
+  width: 60px;
+  padding: 20px;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+nav ul li {
+  text-align: center;
+  float: left;
+}
+nav ul li a {
+  display: block;
+  color: rgb(108, 104, 104);
+  text-decoration: none;
+  padding: 20px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+nav ul li a:hover {
+  color: rgb(31, 171, 137);
+  border-bottom: 2px solid;
+}
+/* home */
+.banner-text {
+  min-height: calc(100vh - 128px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto 100px auto;
+}
+/* Hi, I am */
+p i {
+  font-size: 24px;
+  margin-bottom: 0px;
+  color: white;
+  background-color: black;
+}
+/* Name */
+h2 {
+  font-size: 60px;
+  margin-top: 0px;
+}
+
+h2:hover {
+  color: rgb(31, 171, 137);
+}
+
+/* Download CV */
+button a {
+  padding-top: 0px;
+  padding-right: 50px;
+  padding-bottom: 0;
+  padding-left: 50px;
+  margin: 0px;
+  text-decoration: none;
+  color: grey;
+}
+#btn-download {
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: rgb(105, 104, 104);
+  opacity: 50%;
+  margin-top: 10px;
+  padding: 2px;
+}
+#btn-download:hover,
+#btn-a:hover {
+  border-radius: 5px;
+  border-color: rgb(31, 171, 137);
+  background-color: rgb(31, 171, 137);
+  opacity: 100%;
+  color: white;
+}
+/* Sosial Media */
+.sosmed {
+  image-resolution: 24px;
+  opacity: 50%;
+}
+
+#social-media {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  image-resolution: 24px;
+  opacity: 100%;
+}
+
+a {
+  margin: 5px;
+}
+
+a img:hover {
+  opacity: 100%;
+}
