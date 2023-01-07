@@ -80,12 +80,12 @@ button a {
   padding-left: 50px;
   margin: 0px;
   text-decoration: none;
-  color: grey;
+  color: rgb(108, 104, 104);
 }
 #btn-download {
   border-radius: 5px;
   border: 1px solid;
-  border-color: rgb(105, 104, 104);
+  border-color: rgb(108, 104, 104);
   opacity: 50%;
   margin-top: 10px;
   padding: 2px;
@@ -93,10 +93,10 @@ button a {
 #btn-download:hover,
 #btn-a:hover {
   border-radius: 5px;
-  border-color: rgb(31, 171, 137);
+  /* border-color: black; */
   background-color: rgb(31, 171, 137);
   opacity: 100%;
-  color: white;
+  color: black;
 }
 /* Sosial Media */
 .sosmed {
