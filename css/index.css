@@ -10,6 +10,7 @@
 
 body {
   background-color: rgb(226, 225, 225);
+  overflow: hidden;
 }
 
 /* Navigasi */
@@ -43,7 +44,8 @@ nav ul li a {
 }
 nav ul li a:hover {
   color: rgb(31, 171, 137);
-  border-bottom: 2px solid;
+  /* border-bottom: 2px solid; */
+  text-decoration: underline;
 }
 /* home */
 .banner-text {
@@ -63,13 +65,13 @@ p i {
   background-color: black;
 }
 /* Name */
-h2 {
+#name {
   font-size: 60px;
   margin-top: 0px;
 }
 
-h2:hover {
-  color: rgb(31, 171, 137);
+#name:hover {
+  color: #1fab89;
 }
 
 /* Download CV */
@@ -93,15 +95,23 @@ button a {
 #btn-download:hover,
 #btn-a:hover {
   border-radius: 5px;
-  /* border-color: black; */
-  background-color: rgb(31, 171, 137);
+  border-color: rgb(31, 171, 137);
+  background-color: #1fab89;
   opacity: 100%;
   color: black;
 }
 /* Sosial Media */
 .sosmed {
-  image-resolution: 24px;
+  width: 24px;
+  height: 24px;
+  /* image-resolution: 24px; */
   opacity: 50%;
+}
+.sosmed:hover {
+  width: 24px;
+  height: 24px;
+  /* image-resolution: 24px; */
+  opacity: 100%;
 }
 
 #social-media {

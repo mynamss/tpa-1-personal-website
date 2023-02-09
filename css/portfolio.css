@@ -43,18 +43,21 @@ nav ul li a {
 }
 nav ul li a:hover {
   color: rgb(31, 171, 137);
-  border-bottom: 2px solid;
+  /* border-bottom: 2px solid; */
+  text-decoration: underline;
 }
+
 /* logo */
 .logo {
   image-resolution: 24px;
   opacity: 100%;
 }
 
-/* Portfolio */
-.portfolio-group {
+/* Blog */
+
+.blog-group {
   min-height: calc(100vh - 128px);
-  /* display: flex; */
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
@@ -62,70 +65,68 @@ nav ul li a:hover {
   box-sizing: border-box;
   margin: 0;
   min-width: 0;
-  max-width: 85ch;
+  max-width: 75ch;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
+  border-bottom: 0.25px solid;
+  border-color: rgb(108, 104, 104);
 }
-
-#portfolio {
+#project {
   font-size: 32px;
+  margin-bottom: 10px;
 }
 
-#portfolio:hover {
+#project:hover {
   font-size: 32px;
   color: rgb(31, 171, 137);
 }
-/* Cards */
-#services {
-  padding: 30px 0;
-}
 
-.services-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 10px;
-  grid-column: auto;
-}
-
-.services-list section i {
-  font-size: 50px;
-  margin-bottom: 30px;
-}
-
-.services-list section {
-  background: rgb(224, 241, 237);
-  padding-top: 5px;
-  padding-right: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  font-size: 13px;
-  font-weight: 300;
-  border-radius: 10px;
-}
-
-.services-list section:hover {
-  background: rgb(180, 243, 216);
-  padding-top: 5px;
-  padding-right: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  font-size: 13px;
-  font-weight: 300;
-  border-radius: 10px;
-}
-
-.img-portfolio {
-  width: 300px;
-  border-radius: 10px;
-  align-items: center;
-}
-
-p {
+.blog-list {
   font-size: 24px;
   margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+/* card */
+.porto-card {
+  display: grid;
+  background: rgb(224, 241, 237);
+  padding: 10px;
   margin-bottom: 5px;
-  color: black;
+  border-radius: 10px;
+}
+
+.porto-card:hover {
+  display: grid;
+  background: rgb(180, 243, 216);
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.porto-card-banner {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.porto-banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+p {
+  font-size: 20px;
+  /* margin-bottom: 20px; */
+  margin-top: 10px;
+}
+
+.text-muted {
+  color: #6c757d !important;
 }
 /* footer */
 footer {
@@ -137,12 +138,18 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+/* Sosial Media */
 .sosmed {
-  image-resolution: 24px;
+  width: 24px;
+  height: 24px;
+  /* image-resolution: 24px; */
   opacity: 50%;
 }
-
 .sosmed:hover {
+  width: 24px;
+  height: 24px;
+  /* image-resolution: 24px; */
   opacity: 100%;
 }
 
