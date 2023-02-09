@@ -4,79 +4,95 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/portfolio.css" />
+    <link rel="stylesheet" href="/css/portfolio.css" />
     <title>Nunung Ali Maulana - personalWeb</title>
   </head>
   <body>
     <header>
-      <!-- Navigasi -->
+      <!-- Bagian Navigasi -->
       <nav class="navigation-bar">
-        <a class="logo" href="index.html"><img src="/img/logo.png" alt="my logo" /></a>
+        <a class="logo" href="index.html"><img src="/img/icons/logo.png" alt="my logo" /></a>
         <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./certificate.html">Certificate</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a href="./contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
     <!-- Bagian Utama -->
     <main>
-      <!-- Portfolio -->
+      <!-- Blog -->
       <article>
-        <section class="portfolio-group">
-          <h1 id="portfolio">My portfolio.</h1>
-        <p>Below are some of the portfolios that I got during the bootcamp at Skilvul.</p>
-          <section id="services">
-            <section class="container">
-                <section class="services-list">
-                    <section>
-                        <p>HTML Dasar</p>
-                        <img class="img-portfolio" src="img/html-dasar.png" alt="">
-                    </section>
-
-                    <section>
-                        <p>CSS Dasar</p>
-                        <img class="img-portfolio" src="img/css-dasar.png" alt="">
-                    </section>
-
-                    <section>
-                        <p>JavaScript Dasar</p>
-                        <img class="img-portfolio" src="img/js-dasar.png" alt="">
-                    </section>
-
-                    <section>
-                        <p>Skillpath</p>
-                        <img class="img-portfolio" src="img/skillpath-web.png" alt="">
-                    </section>
-
-                    <section>
-                        <p>UNIX CLI</p>
-                        <img class="img-portfolio" src="img/unix-cli.png" alt="">
-                    </section>
-
-                </section>
+        <section class="blog-group">
+          <h1 id="project">My project.</h1>
+          <!-- <section class="porto-card-group"> -->
+          <a class="text-muted" target="_blank" rel="noopener" href="https://www.figma.com/file/3amkwLSwiyYyE91fh9JfF7/Prototype-Calcare-FEBE-1?node-id=17%3A30">
+            <section class="porto-card">
+              <h4 class="blog-list">calCare Website</h4>
+              <section class="porto-card-banner">
+                <img src="../img/project/calcare-web.png" alt="calCare Figma" width="250" class="porto-banner-img" />
+              </section>
+              <section class="porto-content-wrapper">
+                <p class="porto-text">
+                  A health website to calculate the body's calorie needs and the carbon impact produced from each selected food.
+                </p>
+              </section>
             </section>
+          </a>
+          <!-- </section> -->
+          <!-- <section class="porto-card-group"> -->
+          <a class="text-muted" target="_blank" rel="noopener" href="https://www.figma.com/file/3amkwLSwiyYyE91fh9JfF7/Prototype-Calcare-FEBE-1?node-id=17%3A30">
+            <section class="porto-card">
+              <h4 class="blog-list">TMDB API</h4>
+              <section class="porto-card-banner">
+                <img src="../img/project/mytmdb.png" alt="calCare Figma" width="250" class="porto-banner-img" />
+              </section>
+              <section class="porto-content-wrapper">
+                <p class="porto-text">
+                  A website that displays a list of films from an API provided by The Movie Database (TMDB).
+                </p>
+              </section>
+            </section>
+          </a>
+          <!-- </section> -->
+          <!-- <section class="porto-card-group"> -->
+          <a class="text-muted" target="_blank" rel="noopener" href="http://bmicalculatorbynamss.netlify.app/">
+            <section class="porto-card">
+              <h4 class="blog-list">BMI Calculator Website</h4>
+              <section class="porto-card-banner">
+                <img src="../img//project/bmiCalculator.png" alt="bmi calculator" width="250" class="porto-banner-img" />
+              </section>
+              <p class="porto-text">A simple website that can calculate the BMI (<i>Body Mass Index</i>) value of a person's height and weight according to a predetermined formula.</p>
+            </section>
+          </a>
+          <!-- </section> -->
+          <!-- <section class="porto-card-group"> -->
+          <a class="text-muted" target="_blank" rel="noopener" href="http://bmicalculatorbynamss.netlify.app/">
+            <section class="porto-card">
+              <h4 class="blog-list">Figma Prototype Design</h4>
+              <section class="porto-card-banner">
+                <img src="../img//project/calCare.png" alt="bmi calculator" width="250" class="porto-banner-img" />
+              </section>
+              <p class="porto-text">Being in the FEBE 1 group during the bootcamp at Skilvul and successfully completing the product design stage by making a prototype which will be developed into a website. Its name is calCare, a health website.</p>
+            </section>
+          </a>
+          <!-- </section> -->
         </section>
       </article>
     </main>
     <!-- Footer Sosmed -->
     <footer>
       <section id="social-media">
-        <a target="_blank" href="https://www.instagram.com/mynamss_/">
-          <img
-            class="sosmed"
-            alt="svgImg"
-            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMzIiIGhlaWdodD0iMzIiCnZpZXdCb3g9IjAgMCAyNCAyNCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij4gICAgPHBhdGggZD0iTSA4IDMgQyA1LjI0MyAzIDMgNS4yNDMgMyA4IEwgMyAxNiBDIDMgMTguNzU3IDUuMjQzIDIxIDggMjEgTCAxNiAyMSBDIDE4Ljc1NyAyMSAyMSAxOC43NTcgMjEgMTYgTCAyMSA4IEMgMjEgNS4yNDMgMTguNzU3IDMgMTYgMyBMIDggMyB6IE0gOCA1IEwgMTYgNSBDIDE3LjY1NCA1IDE5IDYuMzQ2IDE5IDggTCAxOSAxNiBDIDE5IDE3LjY1NCAxNy42NTQgMTkgMTYgMTkgTCA4IDE5IEMgNi4zNDYgMTkgNSAxNy42NTQgNSAxNiBMIDUgOCBDIDUgNi4zNDYgNi4zNDYgNSA4IDUgeiBNIDE3IDYgQSAxIDEgMCAwIDAgMTYgNyBBIDEgMSAwIDAgMCAxNyA4IEEgMSAxIDAgMCAwIDE4IDcgQSAxIDEgMCAwIDAgMTcgNiB6IE0gMTIgNyBDIDkuMjQzIDcgNyA5LjI0MyA3IDEyIEMgNyAxNC43NTcgOS4yNDMgMTcgMTIgMTcgQyAxNC43NTcgMTcgMTcgMTQuNzU3IDE3IDEyIEMgMTcgOS4yNDMgMTQuNzU3IDcgMTIgNyB6IE0gMTIgOSBDIDEzLjY1NCA5IDE1IDEwLjM0NiAxNSAxMiBDIDE1IDEzLjY1NCAxMy42NTQgMTUgMTIgMTUgQyAxMC4zNDYgMTUgOSAxMy42NTQgOSAxMiBDIDkgMTAuMzQ2IDEwLjM0NiA5IDEyIDkgeiI+PC9wYXRoPjwvc3ZnPg=="
-          />
+        <a target="_blank" href="https://www.instagram.com/mynamss_/" id="instagramIcon">
+          <img class="sosmed" id="instagramIcon" alt="instagram" src="../img/icons/instagram-grey.png" />
         </a>
-        <a target="_blank" href="https://linkedin.com/in/nunung-ali-maulana-480a33246">
-          <img
-            class="sosmed"
-            alt="svgImg"
-            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMzIiIGhlaWdodD0iMzIiCnZpZXdCb3g9IjAgMCA1MCA1MCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij4gICAgPHBhdGggZD0iTTQxLDRIOUM2LjI0LDQsNCw2LjI0LDQsOXYzMmMwLDIuNzYsMi4yNCw1LDUsNWgzMmMyLjc2LDAsNS0yLjI0LDUtNVY5QzQ2LDYuMjQsNDMuNzYsNCw0MSw0eiBNMTcsMjB2MTloLTZWMjBIMTd6IE0xMSwxNC40N2MwLTEuNCwxLjItMi40NywzLTIuNDdzMi45MywxLjA3LDMsMi40N2MwLDEuNC0xLjEyLDIuNTMtMywyLjUzQzEyLjIsMTcsMTEsMTUuODcsMTEsMTQuNDd6IE0zOSwzOWgtNmMwLDAsMC05LjI2LDAtMTAgYzAtMi0xLTQtMy41LTQuMDRoLTAuMDhDMjcsMjQuOTYsMjYsMjcuMDIsMjYsMjljMCwwLjkxLDAsMTAsMCwxMGgtNlYyMGg2djIuNTZjMCwwLDEuOTMtMi41Niw1LjgxLTIuNTYgYzMuOTcsMCw3LjE5LDIuNzMsNy4xOSw4LjI2VjM5eiI+PC9wYXRoPjwvc3ZnPg=="
-          />
+        <a target="_blank" href="https://github.com/mynamss">
+          <img class="sosmed" id="linkedinIcon" alt="github" src="../img/icons/github-grey.png" />
+        </a>
+        <a target="_blank" href="https://linkedin.com/in/nunung-ali-maulana/">
+          <img class="sosmed" id="linkedinIcon" alt="svgImg" src="../img/icons/linkedin-grey.png" />
         </a>
       </section>
     </footer>
