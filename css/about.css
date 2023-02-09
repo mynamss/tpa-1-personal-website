@@ -43,8 +43,10 @@ nav ul li a {
 }
 nav ul li a:hover {
   color: rgb(31, 171, 137);
-  border-bottom: 2px solid;
+  /* border-bottom: 2px solid; */
+  text-decoration: underline;
 }
+
 /* logo */
 .logo {
   image-resolution: 24px;
@@ -57,7 +59,7 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   flex-direction: column;
   box-sizing: border-box;
   margin: 0;
@@ -67,24 +69,33 @@ nav ul li a:hover {
   margin-left: auto;
   margin-right: auto;
 }
-
+.sub-profile {
+  border-bottom: 0.25px solid;
+  border-color: rgb(108, 104, 104);
+}
 .profile-image {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 0px auto 30px auto;
+  margin: 0px auto 10px auto;
 }
 
-#about {
+.sub-judul {
   font-size: 32px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
-
-#about:hover {
+.sub-judul:hover {
   font-size: 32px;
   color: rgb(31, 171, 137);
 }
+.sub-skills {
+  align-items: center;
+  justify-content: center;
+}
+
 
 p {
   font-size: 20px;
@@ -96,6 +107,13 @@ ul {
   list-style-type: disc;
   margin-left: 20px;
 }
+.tahun {
+  font-size: 14px;
+}
+.desc-edu {
+  margin-bottom: 1px;
+}
+
 /* sosmed footer */
 footer {
   text-align: center;
@@ -110,11 +128,16 @@ a {
   margin: 5px;
 }
 
+/* Sosial Media */
 .sosmed {
-  image-resolution: 24px;
+  width: 24px;
+  height: 24px;
+  /* image-resolution: 24px; */
   opacity: 50%;
 }
-
 .sosmed:hover {
+  width: 24px;
+  height: 24px;
+  /* image-resolution: 24px; */
   opacity: 100%;
 }
